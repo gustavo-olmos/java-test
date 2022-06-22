@@ -13,6 +13,7 @@ public class EmailSender implements Message {
         this.boletim = boletim;
     }
 
+    
     @Override
     public String relogio(LocalDateTime agora) {
         return Message.super.relogio(agora);
